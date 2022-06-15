@@ -1,0 +1,18 @@
+@media screen and  (max-width: 872px) {
+    .slide-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .slide-container {
+        display: none;
+    }
+
+    .login-container, .register-container {
+        padding: 0;
+        border: 0px var(--box-bor-color) solid;
+        background-color: transparent;
+        border-width: 0;
+    }
+}

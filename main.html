@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta title="instagram-login-clone-css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/conf.css">
+    <link rel="stylesheet" type="text/css" href="css/main-slider.css">
+    <link rel="stylesheet" type="text/css" href="css/main-login.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+
+<body>
+<section class="container">
+    <main class="main-container" role="main">
+        <article class="main-content">
+            <div class="slide-container">
+                <div class="slide-content">
+                    <div class="slide-item" style="--order:0">
+                        <img src="img/4d62acb667fb.png" alt="">
+                    </div>
+                    <div class="slide-item" style="--order:1">
+                        <img src="img/94edb770accf.png" alt="">
+                    </div>
+                    <div class="slide-item" style="--order:2">
+                        <img src="img/a4fd825e3d49.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="login-container">
+                    <a class="instagram-img" href="#">
+                        <img src="img/instagram.png" alt="">
+                    </a>
+                    <form class="form-content">
+                        <label class="form">
+                            <span class="font form-text ">Telefone, nome de usuário ou email</span>
+                            <input aria-label="Telefone, nome de usuário ou email" type="text" maxlength="70"
+                                   value="example@dio.me">
+                        </label>
+                        <label class="form">
+                            <span class="font form-text">Senha</span>
+                            <input aria-label="Senha" id="password" type="password" value="123456" required>
+                            <button id="password-show" class="font" type="button" onclick="show()">
+                                Mostrar
+                            </button>
+                        </label>
+                        <div class="btn-login">
+                            <button type="button" class="font" href="#">
+                                Entrar
+                            </button>
+                        </div>
+                        <div style="margin: 10px 40px 18px; flex-direction: row">
+                            <div class="line"></div>
+                            <div class="font or-between">ou</div>
+                            <div class="line"></div>
+                        </div>
+                        <div style="margin: 8px 40px;">
+                            <button type="button">
+                                <span class="facebook-icon"></span>
+                                <span class="font" style="font-size: 14px; font-weight: 600; color: var(--fb-color)">Entrar com o Facebook</span>
+                            </button>
+                        </div>
+                        <a class="font" href="#"
+                           style="font-size: 12px; margin: 12px 0 0; text-align: center; line-height: 16px; color: var(--fb-color);">Esqueceu
+                            a
+                            senha?</a>
+                    </form>
+                </div>
+                <div class="register-container" style="padding: 10px 0; margin: 0 0 10px 0;">
+                    <div style="margin: 15px; flex-direction: row; align-self: center">
+                        <span class="font" style="font-size: 14px">
+                        Não tem uma conta? <a class="font" href="#"
+                                              style="font-size: 14px; font-weight: 600; color: var(--btn-bg)">
+                            Cadastre-se</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="app-download" style="align-self: center">
+                    <p class="font" style="font-size: 14px; margin: 10px 20px; text-align: center">Obtenha o
+                        aplicativo.</p>
+                    <div style="margin: 10px 0; flex-direction: row ">
+                        <a aria-label="Baixar na App Store" style="padding: 0 8px 0 0 ">
+                            <img alt="Baixar na App Store" src="img/appstore.png" style="height: 40px">
+                        </a>
+                        <a aria-label="Baixar no Google Play">
+                            <img alt="Baixar no Google Play" src="img/googlestore.png" style="height: 40px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="footer" style="height: 157px; padding: 0 16px" role="contentinfo">
+        <div class="info">
+            <div style="flex-direction: row; justify-content: center; margin: 24px 0 0; flex-wrap: wrap">
+                <div class="tag">
+                    <a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                        Meta
+                    </a>
+                </div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Sobre
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Blog
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Carreiras
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Ajuda
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    API
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Privacidade
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Termos
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Principais Contas
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Hashtags
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Localizações
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Instagram Lite
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">Carregamento
+                    de contatos e não usuários</a></div>
+            </div>
+            <div style="flex-direction: row; justify-content: center; flex-wrap: wrap">
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Dança
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Comida e bebida
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Casa e jardim
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Música
+                </a></div>
+                <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                    Artes visuais
+                </a></div>
+            </div>
+        </div>
+        <div class="info" style="flex-direction: row; justify-content: center; margin: 12px 0; flex-wrap: wrap ">
+            <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                Português (Brasil)
+            </a></div>
+            <div class="tag"><a href="#" class="font" style="font-size: 12px; color: var(--text-second-color)">
+                © 2022 Instagram from Meta
+            </a></div>
+        </div>
+    </footer>
+</section>
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    function show() {
+        let x = document.getElementById('password');
+        x.type === 'text' ? x.type = 'password' : x.type = 'text';
+    }
+</script>

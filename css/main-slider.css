@@ -1,0 +1,131 @@
+.slide-container {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    background-image: url(../img/phone-frame.png);
+    background-position: -46px 0;
+    background-size: 468.32px 634.15px;
+    background-repeat: no-repeat;
+    -webkit-flex-basis: 380.32px;
+    -ms-flex-preferred-size: 380.32px;
+    flex-basis: 380.32px;
+    height: 581.15px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+}
+
+
+.slide-content {
+    margin: 25px 0 0 112px;
+    position: absolute;
+    max-width: 250px;
+}
+
+.slide-item {
+    width: 250px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-animation: slide var(--ani-dur) ease-in-out infinite;
+    -moz-animation: slide var(--ani-dur) ease-in-out infinite;
+    -ms-animation: slide var(--ani-dur) ease-in-out infinite;
+    -o-animation: slide var(--ani-dur) ease-in-out infinite;
+    animation: slide var(--ani-dur) ease-in-out infinite;
+    animation-delay: calc(var(--order) * 4.5s);
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0.0;
+        visibility: visible;
+    }
+    11.11% {
+        opacity: 1.0;
+    }
+    33.33% {
+        opacity: 1.0;
+    }
+    44.44% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+@-moz-keyframes slide {
+    0% {
+        opacity: 0.0;
+        visibility: visible;
+    }
+    11.11% {
+        opacity: 1.0;
+    }
+    33.33% {
+        opacity: 1.0;
+    }
+    44.44% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+@-ms-keyframes slide {
+    0% {
+        opacity: 0.0;
+        visibility: visible;
+    }
+    11.11% {
+        opacity: 1.0;
+    }
+    33.33% {
+        opacity: 1.0;
+    }
+    44.44% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+@-o-keyframes slide {
+    0% {
+        opacity: 0.0;
+        visibility: visible;
+    }
+    11.11% {
+        opacity: 1.0;
+    }
+    33.33% {
+        opacity: 1.0;
+    }
+    44.44% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0.0;
+        visibility: visible;
+    }
+    11.11% {
+        opacity: 1.0;
+    }
+    33.33% {
+        opacity: 1.0;
+    }
+    44.44% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
